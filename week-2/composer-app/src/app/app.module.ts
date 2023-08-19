@@ -1,3 +1,10 @@
+/**
+ * Title: app.module.ts
+ * Author: William Austin
+ * Date: 19 August 2023
+ * Description: App Module
+ */
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 

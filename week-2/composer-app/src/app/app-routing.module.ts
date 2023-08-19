@@ -1,3 +1,10 @@
+/**
+ * Title: app.routing-module.ts
+ * Author: William Austin
+ * Date: 19 August 2023
+ * Description: Routing Module
+ */
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ComposerListComponent } from './composer-list/composer-list.component';

@@ -1,3 +1,9 @@
+/**
+ * Title: composer-list.component.ts
+ * Author: William John Austin
+ * Date: 19 August 2023
+ * Description: Composer list component; displays a list of composers
+ */
 import { Component } from '@angular/core';
 
 export default class Composer {

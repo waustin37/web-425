@@ -1,3 +1,10 @@
+/**
+ * Title: contact.component.ts
+ * Author: William Austin
+ * Date: 19 August 2023
+ * Description: Contact component (Contact Us page)
+ */
+
 import { Component } from '@angular/core';
 
 @Component({
