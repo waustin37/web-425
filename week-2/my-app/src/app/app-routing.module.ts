@@ -1,4 +1,11 @@
-import { Component, NgModule } from '@angular/core';
+/**
+ * Title: app-routing.module.ts
+ * Author: William Austin
+ * Date: 19 August 2023
+ * Description: Routing file
+ */
+
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';

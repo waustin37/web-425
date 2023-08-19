@@ -1,3 +1,9 @@
+/**
+ * Title: my-details.component.ts
+ * Author: William Austin
+ * Date: 19 August 2023
+ * Description: Details Component (Adds Details to About page)
+ */
 import { Component } from '@angular/core';
 
 export default class Person {
