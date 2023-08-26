@@ -1,0 +1,25 @@
+<div class="container">
+  <br /><br />
+  <h2>COMPOSER LIST</h2>
+  <br />
+  <div class="row">
+    <div class="col-sm-10">
+      <table class="table table-bordered" style="margin-left: 25px; border: 1pt solid black;">
+          <tr style="border: 2pt solid black; background-color: rgb(177, 193, 194);">
+            <th scope="col">Full Name</th>
+            <th scope="col">Genre</th>
+            <th scope="col">Composer ID</th>
+          </tr>
+        <tbody *ngFor="let composer of composers">
+          <tr>
+            <td scope="row">{{ composer.fullName }}</td>
+            <td scope="row">{{ composer.genre }}</td>
+            <td scope="row">
+              <a routerLink="/composer-details/{{ composer.composerId }}">{{ composer.composerId }}</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
